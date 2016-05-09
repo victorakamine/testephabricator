@@ -20,6 +20,11 @@ update $TABLE set linha = replace(linha,'000000000000000000000000MN302PLDPLANO D
 
 update $TABLE set linha = replace(linha,'301PLVASSINATURA VOZ           ','301PLVPLANO VOZ                ');
 
+update $TABLE set linha = replace(linha,'301PLVASSINATURA VOZ           ','301PLVPLANO VOZ                ');
+update $TABLE set linha = replace(linha,'301PLVASSINATURA VOZ           ','301PLVPLANO VOZ                ');
+
+
+
 update $TABLE set linha = replace(linha,'301PLDASSINATURA VOZ           ','302PLDPLANO DADOS              ');
 
 
